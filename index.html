@@ -5,179 +5,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Scholl</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="Css/geral.css">
-    <style>
-        #desaparece-deskop {
-            display: none;
-        }
-        
-        #desaparece {
-            display: inline-block;
-        }
-        
-        @media (max-width:790px) {
-            #desaparece-deskop {
-                display: inline-block;
-            }
-            #desaparece {
-                display: none;
-            }
-        }
-    </style>
+    <title>Sezrch</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
-
 <body>
-
-    <header class="header">
-
-        <div class="logo">
-            <span>WebSoluções</span>
-        </div>
-
-        <nav class="navbar">
-            <!--<a href="#">Home</a>
-            <a href="#">Informações</a>
-            <a href="#">Cursos</a>
-            <a href="#" class="fas fa-search"></a>-->
-            <ul>
-                <li><a href="">Home</a></li>
-                <li> <a href="#Planos">Planos</a></li>
-                <li><a href="">Informações</a></li>
-
-                <li>
-                    <a href="angendar.html" id="serch-desketop" class="fas fa-search"></a>
-                </li>
-            </ul>
-
-        </nav>
-        <div>
-            <a href="#" class="btn-inscricao">Angendar</a>
-        </div>
-
-        <div class="icons-mobile">
-            <a href="pesquisa.html"><i id="seach-mobilie" class="fas fa-search"></i></a>
-            <i class="fas fa-bars"></i>
-        </div>
-    </header>
-
-    <section class="home">
-        <div class="conteudo">
-            <h2>WebSoluções</h2>
-            <p>A melhor agência de viagens Angolanas
-                <br class="baza">Mudando vidas rotineiras.</p>
-            <a href="#" id="desaparece-deskop" class="btn">Angendar</a>
-            <a href="#gallery" id="desaparece" class="btn">Começar</a>
+    <section class="container-header">
+        <h2>Crie Seu Pimeiro Site</h2>
+        <div class="container-search">
+            <label for="search" class="fas fa-search"></label>
+            <input type="search" name="search" id="search" placeholder="Pesquisar por linguagens e ferramentas">
         </div>
     </section>
+    <h1 class="titulo">Linguagens e Ferramentas</h1>
+    <section class="slider-container">
 
-    <section style="background: var(--color-primary);" class="gallery" id="gallery">
 
-
-        <div class="box-container">
-
-            <div class="box">
-                <img src="assets/img/g-1.jpg" alt="">
-
-            </div>
-            <div class="box">
-                <img src="assets/img/g-2.jpg" alt="">
-
-            </div>
-            <div class="box">
-                <img src="assets/img/g-3.jpg" alt="">
-
-            </div>
-            <div class="box">
-                <img src="assets/img/g-4.jpg" alt="">
-
-            </div>
-            <div class="box">
-                <img src="assets/img/g-5.jpg" alt="">
-
-            </div>
-            <div class="box">
-                <img src="assets/img/g-6.jpg" alt="">
-
-            </div>
-            <div class="box">
-                <img src="assets/img/g-7.jpg" alt="">
-
-            </div>
-            <div class="box">
-                <img src="assets/img/g-8.jpg" alt="">
-
-            </div>
-            <div class="box">
-                <img src="assets/img/g-9.jpg" alt="">
-
-            </div>
-
+        <div class="box">
+            <i class="fab fa-html5"></i>
         </div>
 
-    </section>
-    <h1 class="titulos">Planos de Ferias</h1>
-    <section id="Planos" class="precos" style="background: var(--color-primary);">
-
-        <div class="itens">
-            <div class="cabecalho">
-                <h2>Min</h2>
-            </div>
-            <div class="body">
-                <h3>80.000kz</h3>
-                <p>Durante:</p>
-                <p>2 Semanas</p>
-            </div>
-            <div class="footer">
-                <a href="#" class="btn">Aderir</a>
-            </div>
+        <div class="box">
+            <i class="fab fa-python"></i>
         </div>
-        <div class="itens">
-            <div class="cabecalho">
-                <h2>Moderado</h2>
 
-            </div>
-            <div class="body">
-                <h3>200.900kz</h3>
-                <p>Durante:</p>
-                <p>1 Mes</p>
-            </div>
-            <div class="footer">
-                <a href="#" class="btn">Aderir</a>
-            </div>
+        <div class="box">
+            <i class="fab fa-css3"></i>
         </div>
-        <div class="itens">
-            <div class="cabecalho">
-                <h2>Premiumn</h2>
 
-            </div>
-            <div class="body">
-                <h3>500.000kz</h3>
-                <p>Durante:</p>
-                <p> 3 Meses</p>
-            </div>
-            <div class="footer">
-                <a href="#" class="btn">Aderir</a>
-            </div>
+        <div class="box">
+            <i class="fab fa-react"></i>
         </div>
+
+        <div class="box">
+            <i class="fab fa-php"></i>
+        </div>
+
+        <div class="box">
+            <i class="fab fa-vuejs"></i>
+        </div>
+
+        <div class="box">
+            <i class="fab fa-node-js"></i>
+        </div>
+        <div class="box">
+            <i class="fab fa-laravel"></i>
+        </div>
+
+        <div class="box">
+            <i class="fab fa-npm"></i>
+        </div>
+
+        <div class="box">
+            <i class="fab fa-js-square"></i>
+        </div>
+
+        <div class="box">
+            <i class="fab fa-linux"></i>
+        </div>
+
+        <div class="box">
+            <i class="fab fa-windows"></i>
+        </div>
+
+        <div class="box">
+            <i class="fab fa-dropbox"></i>
+        </div>
+
+        <div class="box">
+            <i class="fab fa-unity"></i>
+        </div>
+
+        <div class="box">
+            <i class="fab fa-wordpress-simple"></i>
+        </div>
+        <div class="box">
+            <i class="fab fa-blogger"></i>
+        </div>
+
+        <div class="box">
+            <i class="fab fa-java"></i>
+        </div>
+
+        <div class="box">
+            <i class="fab fa-docker"></i>
+        </div>
+
+
+
+
     </section>
 
     <footer>
         <div class="icones">
-            <a href="#" class="fas fa-phone"></a>
+            <a href="#" class="fab fa-github"></a>
+            <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-whatsapp"></a>
-            <a href="#" class="fab fa-pinterest-p"></a>
         </div>
 
-        <div class="divisao-credite">
-            <h2> &copy; Todos direitos Reservados a <span>WebSoluções</span></h2>
-        </div>
+        <h2> &copy; Todos direitos reservados <span>WebSoluções</span> </h2>
     </footer>
-
-    <!-- gallery section ends -->
-    <script src="js/app.js"></script>
-
+    <a href="#" class="fas fa-chevron-up btn-top">
+    </a>
 </body>
 
 </html>
